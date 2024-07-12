@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(60%);
+ }
+ 
+ .logo {
+     filter: brightness(100);
+     position: fixed;
+     width: 120px;
+ }
+ h1 {
+   color: white;
+ }
+
+ .sub-titulo {
+   color: white;
+ }
+
+.item {
+    display: flex;
+}
+
+.info-carro {
+
+}
+
+.rodape {
+
+}
