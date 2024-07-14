@@ -78,4 +78,12 @@ button {
     font-size: 12px; /* TAMANHO DO TEXTO */
    
 }
-
+.formulario {
+    position: fixed;
+    top: 40px;
+    width: 600px;
+    height: 100%;
+    z-index: 3;
+    left: -50%;
+    transition: 1.5s;
+}
